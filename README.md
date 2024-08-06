@@ -28,3 +28,12 @@
 
   <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 </div>
+<br><br>
+
+<div align=center> 
+  <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=reverie08&show_icons=true&locale=en&layout=compact" alt="reverie08" /></p>
+  <br>
+  
+  <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=reverie08&show_icons=true&locale=en" alt="reverie08" /></p>
+  <br>
+</div>
