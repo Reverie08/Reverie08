@@ -1,0 +1,75 @@
+<svg fill="none" viewBox="0 0 600 120" width="600" height="120" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @keyframes type {
+          0% {
+            width: 0ch;
+          }
+
+          25%,
+          50% {
+            width: 12ch;
+          }
+
+          75%,
+          100% {
+            width: 0ch;
+          }
+        }
+
+        @keyframes blink {
+
+          0%,
+          49% {
+            opacity: 1;
+          }
+
+          50%,
+          100% {
+            opacity: 0;
+          }
+        }
+
+        .container {
+          width: 600px;
+          height: 120px;
+          background-color: #20232A;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          padding-left: 20px;
+        }
+
+        .text-container {
+          position: relative;
+          font-family: monospace;
+          font-size: 36px;
+          color: #fff;
+        }
+
+        .text {
+          display: inline-block;
+          white-space: nowrap;
+          overflow: hidden;
+          animation: type 8s steps(12) infinite;
+        }
+
+        .cursor {
+          display: inline-block;
+          width: 2px;
+          height: 1.2em;
+          background-color: #fff;
+          margin-left: 2px;
+          animation: blink 1.2s steps(2) infinite;
+          vertical-align: text-bottom;
+        }
+      </style>
+      <div class="container">
+        <div class="text-container">
+          <span class="text">Hello World!</span><span class="cursor"></span>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
